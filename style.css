@@ -10,3 +10,29 @@ header{
     width: 103%;
     height: 74rem;
 }
+
+nav{
+    display: inline-block;
+    width: 73%;
+    text-align: center;
+}
+
+nav > a{
+    margin: 2rem;
+    color: white;
+    font-size: 24px;
+}
+
+.login{
+    margin-top: 2rem;
+    margin-right: 6rem;
+    width: 7%;
+    height: 4%;
+    border: 0px;
+    border-radius: 35px;
+}
+
+.logo{
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
