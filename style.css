@@ -1,0 +1,12 @@
+html,body{
+    width:100%;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: url(img/jumbo.png);
+    width: 103%;
+    height: 74rem;
+}
