@@ -121,6 +121,10 @@ nav > a{
     letter-spacing: 0.04em;
 }
 
+.flex2{
+    background-color:rgb(246, 243, 243);
+}
+
 .img2{
     flex-basis: 40%;
     
@@ -164,7 +168,8 @@ nav > a{
 .flex4{
     flex-direction: column;
     align-items: center;
-    
+    background-color:rgb(246, 243, 243);
+    margin-bottom: 0;
 }
 
 .item4 > h1{
@@ -207,4 +212,91 @@ nav > a{
     border-radius: 35px;
     font-size: 22px;
     margin: 1rem;
+}
+
+.flex5{
+    background-color: rgb(44, 42, 60);
+    align-items: stretch;
+    height: 40rem;
+    justify-content: space-around;
+    padding-top: 5rem;
+    margin-top: 0;
+    margin-bottom: -2rem;
+}
+
+.social{
+    margin-left: 10rem;
+}
+
+.social > h1{
+    color: rgb(50, 80, 214);
+    font-size: 3rem;
+    width: 24rem;
+    margin-bottom: 1rem;
+}
+
+.social > img{
+    width: 5%;
+}
+
+.social > p{
+    color: white;
+    display: inline;
+}
+span{
+    font-size: 20px;
+    color: white;
+}
+.fa-brands{
+    color: white;
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+    font-size: 2rem;;
+}
+
+h5{
+    color: rgb(50, 80, 214);
+    font-size: 1rem;
+    margin: 2rem;
+}
+
+section nav{
+    text-align: left;
+    height: 15rem;
+    width: 15rem;
+}
+
+section a{
+    font-size: 1rem;
+    letter-spacing: 0.04em; 
+    line-height: 2.5em;
+}
+
+hr{
+    color:blue;
+    margin-left:12rem;
+    margin-right:7em;
+}
+
+footer{
+    background-color: rgb(44, 42, 60);
+    height: 7rem;
+}
+
+footer img{
+    margin-left: 12rem;
+    margin-top: 1rem;
+}
+
+footer button{
+    background-color: rgb(126, 175, 240);
+    color: white;
+    width: 10%;
+    height: 3rem;
+    border: 0px;
+    border-radius: 35px;
+    font-size: 22px;
+    margin: 1rem;
+    float: right;
+    margin-right: 7rem;
 }
