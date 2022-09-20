@@ -160,3 +160,51 @@ nav > a{
     font-size: 1.3rem;
     letter-spacing: 0.04em;
 }
+
+.flex4{
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.item4 > h1{
+    width: 70%;
+    font-size: 3rem;
+    margin: auto;
+    text-align: center;
+}
+
+.item4 > p{
+    width: 70%;
+    font-size: 1.3rem;
+    letter-spacing: 0.04em;
+    margin: auto;
+    text-align: center;
+}
+
+.img4{
+    width: 70%;
+}
+
+.avventura{
+    background-image: url(img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 34%;
+    height: 6rem;
+    text-align: center;
+    padding-top: 2.5rem;
+
+}
+
+.mac2{
+    background-color: rgb(126, 175, 240);
+    color: white;
+    width: 13%;
+    height: 3.5rem;
+    border: 0px;
+    border-radius: 35px;
+    font-size: 22px;
+    margin: 1rem;
+}
