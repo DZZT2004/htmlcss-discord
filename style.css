@@ -11,7 +11,7 @@ header{
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
-    height: 74rem;
+    height: 41rem;
 }
 
 nav{
@@ -30,9 +30,10 @@ nav > a{
     margin-top: 2rem;
     margin-right: 6rem;
     width: 7%;
-    height: 4%;
+    height: 8%;
     border: 0px;
     border-radius: 35px;
+    font-size: 18px;
 }
 
 .logo{
@@ -40,7 +41,11 @@ nav > a{
     margin-left: 6rem;
 }
 
-header > h1{
+.contenitore{
+    height: 30%;
+}
+
+.contenitore > h1{
     color: white;
     text-align: center;
     margin-top: 10rem;
@@ -48,7 +53,7 @@ header > h1{
     font-size: 60px;
 }
 
-header > p{
+.contenitore > p{
     width: 50%;
     text-align: center;
     color: white;
@@ -58,7 +63,7 @@ header > p{
 
 .download{
     text-align: center;
-    height: 5%;
+    height: 30%;
 }
 
 .mac{
@@ -80,4 +85,55 @@ header > p{
     border-radius: 35px;
     font-size: 22px;
     margin: 1rem;
+}
+
+.main{
+    width: 100%;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 9rem;
+    
+}
+
+
+.img1{
+    flex-basis: 45%;
+    
+}
+
+.item1{
+    flex-basis: 30%;
+}
+
+.item1 > h1{
+    width: 70%;
+    font-size: 3rem;
+}
+
+.item1 > p{
+    width: 70%;
+    font-size: 1.3rem;
+}
+
+.img2{
+    flex-basis: 40%;
+    
+}
+
+.item2{
+    flex-basis: 30%;
+}
+
+.item2 > h1{
+    width: 70%;
+    font-size: 3rem;
+}
+
+.item2 > p{
+    width: 70%;
+    font-size: 1.3rem;
 }
